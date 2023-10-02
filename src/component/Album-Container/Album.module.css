@@ -1,0 +1,91 @@
+.AlbumContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 100%;
+    transition: ease-in-out 0.4s;
+    margin-top: 20px;
+    
+}
+
+.albumNav{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: ease-in-out 0.4s;
+    margin-top: 20px;
+}
+
+.albumNav button{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.addBtn1{
+    background-color: rgb(195, 195, 255);
+    border: 2px solid rgb(72, 72, 255);
+    color: rgb(72, 72, 255);
+}
+
+.backBtn1{
+    background-color: rgb(253, 183, 183);
+    color: red;
+    border: 2px solid red;
+}
+
+.albumshow{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+
+}
+
+.albums{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    /* flex-direction: column; */
+}
+
+.addAlbum button{
+    height: 30px;
+    background-color: rgb(195, 195, 255);
+    border: 2px solid rgb(72, 72, 255);
+    border-radius: 3px;
+    color: rgb(72, 72, 255);
+    cursor: pointer;;
+    
+}
+
+.container{
+    display: flex;
+    color: white;
+}
+
+.deleteBtn{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    border: 0;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 160px;
+    justify-self: flex-end;
+    cursor: pointer;
+}

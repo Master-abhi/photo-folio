@@ -1,11 +1,28 @@
+body{
+  background-color: #FFEECC;
+}
 .App {
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Onest', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+button{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Onest', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Onest&display=swap');
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

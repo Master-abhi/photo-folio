@@ -1,0 +1,47 @@
+.form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form input{
+    height: 25px;
+    width: 60%;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+}
+.form .clear{
+    background-color: red;
+}
+
+.form .create{
+    background-color: rgb(22, 103, 255);
+}
+
+.form button{
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.createContainer{
+    /* height: 50px; */
+    transition: ease-in-out 0.4s;
+    background-color: #F39F5A;
+    height: 120px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    /* width: 3%;  */
+}
+
+.btns button{
+    margin-left: 10px;
+}
