@@ -74,6 +74,9 @@
     display: flex;
     color: white;
 }
+.container:hover .deleteBtn{
+    visibility: visible;
+}
 
 .deleteBtn{
     border: 1px solid black;
@@ -88,4 +91,5 @@
     margin-left: 160px;
     justify-self: flex-end;
     cursor: pointer;
+    visibility: hidden;
 }
